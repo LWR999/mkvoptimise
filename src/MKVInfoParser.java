@@ -161,12 +161,7 @@ public class MKVInfoParser {
         }
         else {
             if (audioTracks.size() > bestAudioTracks.size()) {
-                processingWorthIt = true; // If more audio tracks than recommended, worth doing
-            }
-            else {
-                if (subtitleTracks.size() > bestSubtitleTracks.size()) {
-                    processingWorthIt = true; // If more subtitle tracks than recommended, worth doing
-                }
+                processingWorthIt = true; // If more audio tracks than recommended, worth doing   }
             }
         }
         return processingWorthIt;
